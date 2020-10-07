@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="password">Password</string>
+    <string name="_30">30°</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="login">Login</string>
+    <string name="hint_register_email">Email</string>
+    <string name="register">Register</string>
+    <string name="Name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="search_for_location">Search for location</string>
+    <string name="ex_town_country">Ex. town/country</string>
+    <string name="search">Search</string>
+
+    <string name="todo">TODO</string>
+    <string name="maps">Maps</string>
+    <string name="my_places">My Places</string>
+    <string name="weather">Weather</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="tomorow">Tomorow</string>
+    <string name="july_14">July 14</string>
+    <string name="july_15">July 15</string>
+    <string name="_27">27°</string>
+    <string name="_28">28°</string>
+    <string name="mostly_sunny">Mostly sunny</string>
+    <string name="rainy">Rainy</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="c">°C</string>
+    <string name="f">°F</string>
+    <string name="switch_to">Switch to:</string>
+    <string name="iasi">Iasi</string>
+    <string name="straightLine">|</string>
+    <string name="_31">31°</string>
+    <string name="july_13">July 13</string>
+    <string name="sunny">Sunny</string>
+    <string name="toast_logout">\'Logout\'  button coming soon..</string>
+    <string name="toast_maps">\'Maps\'  button coming soon..</string>
+    <string name="toast_myprofile">\'My Places\'  button coming soon..</string>
+    <string name="btn_popup_alphabetical">Sort alphabetically</string>
+    <string name="btn_popup_bytemperature">Sort by temperature</string>
+    <string name="btn_sort">Sort</string>
+    <string name="txt_today">Today</string>
+    <string name="add_to_favorites">+</string>
+</resources>

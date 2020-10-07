@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.pentatraining.weatherapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CusmoziedAppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SearchScreenActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.HomeScreenActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.RegisterScreenActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.ForecastActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.MyPlacesActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activities.MyProfileActivity"
+            android:screenOrientation="portrait"></activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBkp1Tk8iuMe9H1zAMnA-zPES7i2NDAqeU"/>
+    </application>
+
+</manifest>

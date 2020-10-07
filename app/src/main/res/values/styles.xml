@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="HomeScreenButtonStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/generalTextSize</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/general_text</item>
+        <item name="android:layout_width">@dimen/btnWidthHomeScreen</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="LoginEditTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_height">@dimen/edtTextHeight</item>
+        <item name="android:layout_width">@dimen/edtTextWidth</item>
+        <item name="android:textSize">@dimen/generalTextSize</item>
+        <item name="android:paddingLeft">@dimen/input_text_padding</item>
+        <item name="android:paddingRight">@dimen/input_text_padding</item>
+
+
+    </style>
+
+    <style name="MyPlacesTextViewStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/general_text</item>
+    </style>
+
+    <style name="LayoutStyle" parent="Theme.AppCompat.DayNight">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/gradient</item>
+
+    </style>
+
+    <style name="CusmoziedAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/firstColor</item>
+        <item name="colorPrimaryDark">@color/secondColor</item>
+        <item name="colorAccent">@color/thirdColor</item>
+        <item name="android:textColorHint">@color/fourthColor</item>
+    </style>
+
+
+</resources>

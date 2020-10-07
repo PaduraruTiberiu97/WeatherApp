@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_text_padding">10dp</dimen>
+    <dimen name="edtTextHeight">60dp</dimen>
+    <dimen name="edtTextWidth">260dp</dimen>
+    <dimen name="edtMarginTop">8dp</dimen>
+    <dimen name="edtMarginBottom">8dp</dimen>
+    <dimen name="generalTextSize">20sp</dimen>
+    <dimen name="btnHeight">60dp</dimen>
+    <dimen name="btnWidth">120dp</dimen>
+    <dimen name="btnMargin">8dp</dimen>
+    <dimen name="btnRegisterMarginTop">24dp</dimen>
+    <dimen name="edtRegisterSideMargin">32dp</dimen>
+    <dimen name="edtSearchSideMargin">32dp</dimen>
+    <dimen name="txtSearchTextSize">25sp</dimen>
+    <dimen name="txtSearchHeight">40dp</dimen>
+    <dimen name="txtSearchWidth">215dp</dimen>
+    <dimen name="edtSearchPadding">45dp</dimen>
+    <dimen name="btnTextSize">16sp</dimen>
+    <dimen name="imgSearchMagnifierMargin">8dp</dimen>
+    <dimen name="imgDimensions">32dp</dimen>
+    <dimen name="btnWidthHomeScreen">150dp</dimen>
+    <dimen name="btnMarginHomeScreen">24dp</dimen>
+    <dimen name="txtSmallTextSize">12sp</dimen>
+    <dimen name="txtMediumTextSize">16sp</dimen>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutStyle">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="165dp"
+        android:layout_height="160dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        style="@style/LoginEditTextStyle"
+        android:layout_marginBottom="@dimen/edtMarginBottom"
+        android:background="@drawable/round_edittext"
+        android:hint="@string/hint_register_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        style="@style/LoginEditTextStyle"
+        android:layout_marginTop="@dimen/edtMarginTop"
+        android:background="@drawable/round_edittext"
+        android:hint="@string/password"
+
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginTop="@dimen/edtMarginTop"
+        android:layout_marginEnd="@dimen/btnMargin"
+        android:layout_marginRight="@dimen/btnMargin"
+        android:background="@drawable/round_corner_button"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textSize="@dimen/btnTextSize"
+        app:layout_constraintEnd_toStartOf="@+id/guideline1"
+        app:layout_constraintStart_toStartOf="@+id/edt_password"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="@dimen/edtTextHeight"
+        android:layout_marginStart="@dimen/btnMargin"
+        android:layout_marginLeft="@dimen/btnMargin"
+        android:background="@drawable/round_corner_button"
+        android:text="@string/register"
+        android:textSize="@dimen/btnTextSize"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_login"
+        app:layout_constraintEnd_toEndOf="@+id/edt_password"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toTopOf="@+id/btn_login" />
+
+
+</android.support.constraint.ConstraintLayout>
